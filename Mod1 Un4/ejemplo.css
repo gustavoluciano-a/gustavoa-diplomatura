@@ -1,0 +1,34 @@
+h1{
+    color: red;/*esto es un comentario en css*/
+    background-color: yellow;/*fondo color*/
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: green;
+    line-height: 25px;
+}
+
+.destacados{
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#caja{
+    background-color: pink;
+    width: 300px;/*ancho*/
+    height: 400px;/*alto*/
+    padding: 20px;/*separacion del borde hacia adentro*/
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+}

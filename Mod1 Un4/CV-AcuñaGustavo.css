@@ -1,0 +1,64 @@
+h1{
+    color: red;  /*comentario color h1*/
+    background-color: yellow; /*fondo*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.negros{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caja{
+    background-color: red;
+    width: 250px;/*ancho*/
+    height: 200px;/*alto*/
+    padding: 20px;/*separacion del borde hacia adentro*/
+    padding-bottom: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+h5{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: green;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.destacados{
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+h6{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
