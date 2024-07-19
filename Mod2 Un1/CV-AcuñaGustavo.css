@@ -3,45 +3,59 @@ h1{
     background-color: yellow; /*fondo*/
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+
 }
 
 h2{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Playwrite CU", cursive;
 }
 
 h3{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Playwrite CU", cursive;
 }
 
 .negros{
     color: black;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
 }
 
 h4{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Playwrite CU", cursive;
 }
 
 #caja{
-    background-color: red;
+    /*background-color: red;*/
     width: 250px;/*ancho*/
     height: 200px;/*alto*/
     padding: 20px;/*separacion del borde hacia adentro*/
     padding-bottom: 20px;
-    border: 5px solid black;
+    border: 2px solid black;
     box-sizing: border-box;
     margin-top: 10px;
     margin-left: 50px;
     line-height: 25px;
+    background: linear-gradient(126deg,#ff0000 15%, #ffff00 47%, #00ff00 80%);
+    box-shadow: 10px 5px 10px 15px rgba(54,87,236,0.75);
+    border-radius: 30px 10px 30px 10px;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
 }
 
 h5{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Playwrite CU", cursive;
 }
 
 p{
@@ -49,16 +63,27 @@ p{
     line-height: 25px;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    column-count: 2;
+    column-gap: 100px;
+
 }
 
 .destacados{
     color: orange;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
+    font-size: 25px;
+    column-count: 1;
+}
+
+.iconos{
     font-size: 25px;
 }
 
 h6{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Playwrite CU", cursive;
 }
