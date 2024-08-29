@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #2e64a1;
-    padding: 16px 0;
+    padding: 5px 0;
 }
 
 header img {
@@ -135,7 +135,7 @@ h2 {
 .persona {
     border: 1px solid #CCC;
     border-radius: 5px;
-    width: 30%;
+    width: 23%;
     text-align: center;
     padding: 13px;
     box-sizing: border-box;
